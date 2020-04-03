@@ -1,0 +1,18 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 30px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
