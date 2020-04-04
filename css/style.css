@@ -9,10 +9,45 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   margin: 30px;
+  cursor: pointer;
 }
 
-body {
+.slider {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* regole immagini */
+.slider .images img{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  display: none;
+}
+
+.slider .images img.active {
+  display: inline-block;
+}
+
+/* regole pallini */
+.pallini {
+  padding-top: 20px;
+  width: 200px;
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(213, 213, 213);
+  border: 1px solid black;
+  border-radius:40px;
+  cursor: pointer;
+}
+
+.doton {
+  background-color: black;
 }
